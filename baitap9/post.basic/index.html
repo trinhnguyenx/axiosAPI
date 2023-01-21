@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loading">
+        <h2>
+            Loading...
+        </h2>
+    </div>
+    <h1>
+        Todo list
+    </h1>
+    <hr>
+
+    <div>Todo:</div>
+    <ul class="todo-items">
+
+    </ul>
+    <hr>
+
+    <div>In progress:</div>
+    <ul class="in-progress-items">
+
+    </ul>
+    <hr>
+
+    <div>Done:</div>
+    <ul class="done-items">
+
+    </ul>
+    <form id="my-form">
+        <input type="text" id="input-title">
+        <select id="select-status">
+            <option value="todo">Todo</option>
+            <option value="in-progress"> In progress</option>
+            <option value="done">Done</option>
+        </select>
+        <input type="submit" value="Add" id="submit-btn">
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>

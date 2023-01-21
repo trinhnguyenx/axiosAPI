@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="loading">
+        <h2>
+            Loading...
+        </h2>
+    </div>
+    <div class="header">
+        <p>todos</p>
+        <div style="display: flex; width: 100%; justify-content: center; margin-top: -100px;">
+            <div class="box">
+                <div class="icon">></div>
+                <input type="text" class="new-todo" placeholder="What needs to be done?">
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <ul class="todo-list">
+
+        </ul>
+
+    </div>
+    <div class="footer">
+        <div class="footer-box">
+            <div class="item-left"></div>
+            <div class="change-view">
+                <div class="all">All</div>
+                <div class="active">Active</div>
+                <div class="completed">Completed</div>
+            </div>
+            <div class="space"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main2.js"></script>
+</body>
+
+</html>
